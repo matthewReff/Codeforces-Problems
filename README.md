@@ -3,7 +3,7 @@ My solutions for the programming contest website codeforces : codeforces.com
 
 https://codeforces.com/profile/Geniusammyr
 
-The specific problem solved can being using the following format:
+The specific problem solved can be found using the following format:
 
 "https://codeforces.com/contest/{folder number}/problem/{problem letter}"
 
