@@ -5,7 +5,7 @@ https://codeforces.com/profile/Geniusammyr
 
 The specific problem solved can be found using the following format:
 
-"https://codeforces.com/contest/{folder number}/problem/{problem letter}"
+"https://codeforces.com/contest/{folder_number}/problem/{problem_letter}"
 
 https://codeforces.com/contest/1263/problem/A
 
