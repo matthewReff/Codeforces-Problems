@@ -31,26 +31,24 @@ int main()
     cin >> cases;
     for(i = 0; i < cases; i++)
     {
-    	distance = 0;
-    	cin >> num1 >> num2;
-    	diff = abs(num1-num2);
-    	while(diff - 5 >= 0)
-    	{
-    		diff -= 5;
-    		distance++;
-    	}
-    	switch(diff)
-    	{
-    		case 1:
-    		case 2:
-    			distance++;
-    			break;
-    		case 3:
-    		case 4:
-    			distance += 2;
-    			break;
-    	}
-    	cout << distance << "\n";
+        distance = 0;
+        cin >> num1 >> num2;
+        diff = abs(num1-num2);
+        ll toAdd = diff/5;
+        diff = diff % 5;
+        distance += toAdd;
+        switch(diff)
+        {
+            case 1:
+            case 2:
+                distance++;
+                break;
+            case 3:
+            case 4:
+                distance += 2;
+                break;
+        }
+        cout << distance << "\n";
     }
     return 0;
 }
